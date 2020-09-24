@@ -18,6 +18,10 @@
 [<img align="left" alt="rond.cc | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 
+### Video:
+
+[![Video](https://img.youtube.com/vi/pl4BQvOuCnU/0.jpg)](https://www.youtube.com/watch?v=pl4BQvOuCnU)
+
 [website]: https://rond.cc
 [twitter]: https://twitter.com/rondDev
 [youtube]: https://youtube.com/rondYT
