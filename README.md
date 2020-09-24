@@ -2,7 +2,7 @@
 
 ##### Cobra is a utility to easily switch your Discord Hypesquad house, all it needs is your token.
 
-![](https://img.shields.io/github/stars/rondDev/Cobra.svg) ![](https://img.shields.io/github/forks/rondDev/Cobra.svg) ![](https://img.shields.io/github/tag/rondDev/Cobra.svg) ![](https://img.shields.io/github/release/rondDev/Cobra.svg) ![](https://img.shields.io/github/issues/rondDev/Cobra.svg) ![]
+![](https://img.shields.io/github/stars/rondDev/Cobra.svg) ![](https://img.shields.io/github/forks/rondDev/Cobra.svg) ![](https://img.shields.io/github/tag/rondDev/Cobra.svg) ![](https://img.shields.io/github/release/rondDev/Cobra.svg) ![](https://img.shields.io/github/issues/rondDev/Cobra.svg)
 
 ### Features
 
