@@ -55,7 +55,9 @@ void request()
     curl_easy_setopt(hnd, CURLOPT_HTTPHEADER, headers);
     curl_easy_setopt(hnd, CURLOPT_WRITEFUNCTION, write_data);
 
-    curl_easy_setopt(hnd, CURLOPT_POSTFIELDS, "{\"house_id\": " + std::to_string(id) + "}");
+    std::string post = "{\"house_id\":" + std::to_string(id) + "}";
+    
+    curl_easy_setopt(hnd, CURLOPT_POSTFIELDS, post.c_str());
 
     CURLcode ret = curl_easy_perform(hnd);
 
@@ -65,18 +67,22 @@ void request()
     if (http_code == 204)
     {
         std::cout << "Success! Changed your hypesquad house!";
+        Sleep(3000);
     }
     else if(http_code == 429)
     {
         std::cout << "You are rate-limited. Try again in a few minutes.";
+        Sleep(3000);
     }
     else if(http_code == 401)
     {
         std::cout << "Invalid token.";
+        Sleep(3000);
     }
     else
     {
         std::cout << "I'm gonna be honest chief, idk wtf happened there, some error by the code of" << http_code;
+        Sleep(3000);
     }
 }
 
