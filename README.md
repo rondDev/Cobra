@@ -4,6 +4,8 @@
 
 ![](https://img.shields.io/github/stars/rondDev/Cobra.svg) ![](https://img.shields.io/github/forks/rondDev/Cobra.svg) ![](https://img.shields.io/github/tag/rondDev/Cobra.svg) ![](https://img.shields.io/github/release/rondDev/Cobra.svg) ![](https://img.shields.io/github/issues/rondDev/Cobra.svg)
 
+![](https://i.imgur.com/l4kZeCW.png)
+
 ### Features
 
 - Change you Discord Hypesquad to any of the three houses.
