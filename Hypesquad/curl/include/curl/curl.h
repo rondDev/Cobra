@@ -2865,7 +2865,6 @@ struct curl_version_info_data {
   unsigned int zstd_ver_num; /* Numeric Zstd version
                                   (MAJOR << 24) | (MINOR << 12) | PATCH */
   const char *zstd_version; /* human readable string. */
-
 };
 typedef struct curl_version_info_data curl_version_info_data;
 
