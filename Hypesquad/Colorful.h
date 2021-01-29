@@ -167,7 +167,6 @@ namespace colorful {
 				Values[i] = true;
 				break;
 			}
-
 		}
 		if (chosen == 17) {
 			throw;
