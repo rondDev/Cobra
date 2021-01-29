@@ -30,7 +30,6 @@ namespace colorful {
 	}
 
 	FigletText MakeFigletText(std::string text, std::string font) {
-
 		int i;
 		std::smatch match;
 		std::smatch match2;
@@ -102,7 +101,6 @@ namespace colorful {
 
 		for (i = 0; i < arraysize - 1; i++) {
 			newarray[i] = texts[i];
-
 		}
 		newarray[arraysize - 1] = text2;
 		newarray[0].arrlenght = arraysize;
@@ -111,7 +109,6 @@ namespace colorful {
 	}
 
 	void PlaceCursorLeft(int lenght) {
-
 		CONSOLE_SCREEN_BUFFER_INFOEX info;
 		info.cbSize = sizeof(info);
 		HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -156,7 +153,6 @@ namespace colorful {
 
 		int i, chosen = 17;
 		for (i = 0; i < 16; i++) {
-
 			COLORREF a = info.ColorTable[i];
 
 			if (info.ColorTable[i] == color) {
@@ -164,16 +160,13 @@ namespace colorful {
 
 				return chosen;
 			}
-
 		}
 		for (i = 0; i < 16; i++) {
-
 			if (!Values[i]) {
 				chosen = i;
 				Values[i] = true;
 				break;
 			}
-
 
 		}
 		if (chosen == 17) {
@@ -214,7 +207,6 @@ namespace colorful {
 	}
 
 	void WriteLine(std::string text, COLORREF color = RGB(192, 192, 192), Alignment alignmnet = Right) {
-
 		Write(text, color, alignmnet);
 		Write("\r\n");
 	}
@@ -269,7 +261,6 @@ namespace colorful {
 	}
 
 	ColorfulString MakeColorfulString(std::string text, COLORREF color = RGB(192, 192, 192)) {
-
 		ColorfulString a;
 		a.value = text;
 		a.color = color;
